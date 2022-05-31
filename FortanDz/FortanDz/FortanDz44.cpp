@@ -56,19 +56,19 @@ int main() // Точка входа в программу
  //     std::cout << (25 < 48 && (23 > (3 + 15) || (2 < 8 && (5 >= 2 && 15 < 15)))) << "\n";
 
  // Домашняя работа 4
-      int a = 0;
-      int b = 0;
-      int c = 0;
-      std::cout << "Введите a = ";
-      std::cin >> a;
-      std::cout << "\n";
-      std::cout << "Введите b = ";
-      std::cin >> b;
-      std::cout << "\n";
+ //     int a = 0;
+ //     int b = 0;
+ //     int c = 0;
+ //     std::cout << "Введите a = ";
+ //     std::cin >> a;
+ //     std::cout << "\n";
+ //     std::cout << "Введите b = ";
+ //     std::cin >> b;
+ //     std::cout << "\n";
  //     std::cout << "Среднее арифметическое = " << (a + b) / 2 << "\n";
-      std::cout << "Введите операцию 1 = <+> 2 = <-> 3 = <*> 4 = </> == ";
-      std::cin >> c;
-      std::cout << "\n";
+ //     std::cout << "Введите операцию 1 = <+> 2 = <-> 3 = <*> 4 = </> == ";
+ //     std::cin >> c;
+ //     std::cout << "\n";
  //     if (c == 1)
  //     {
  //         std::cout << "Сумма = " << a + b << "\n";
@@ -89,24 +89,62 @@ int main() // Точка входа в программу
  //     {
  //         std::cout << "Вы неправильно ввели операцию" << "\n";
  //     }
-      switch (c)
-      {
-      case 1:
-          std::cout << "Сумма = " << a + b << "\n";
-          break;
-      case 2:
-          std::cout << "Разность = " << a - b << "\n";
-          break;
-      case 3:
-          std::cout << "Произведение = " << a * b << "\n";
-          break;
-      case 4:
-          std::cout << "Деление = " << a / b << "\n";
-          break;
-      default:
-          std::cout << "Вы неправильно ввели операцию" << "\n";
-      }
+ //     switch (c)
+ //     {
+ //     case 1:
+ //         std::cout << "Сумма = " << a + b << "\n";
+ //         break;
+ //     case 2:
+ //         std::cout << "Разность = " << a - b << "\n";
+ //         break;
+ //     case 3:
+ //         std::cout << "Произведение = " << a * b << "\n";
+ //         break;
+ //     case 4:
+ //         std::cout << "Деление = " << a / b << "\n";
+ //         break;
+ //     default:
+ //         std::cout << "Вы неправильно ввели операцию" << "\n";
+ //     }
 
+ // Домашняя работа 5
+ //     int a = 0;
+ //     int dd = 0;
+
+ //     while (true) 
+ //     {
+ //         std::cout << "Введите a = ";
+ //         std::cin >> a;
+ //         std::cout << "\n";
+ //         if (a <= 0)
+ //         {
+ //             std::cout << "Вы ввели отрицательное число" << "\n";
+ //             false;
+ //         }
+ //         else if (a > 0) 
+ //         {
+ //            break;
+ //         }
+ //      }
+ //     for (int i = 1; i <= a; i++)
+ //     {
+ //         dd += i;
+ //         if (i % 2) 
+ //         {
+ //             std::cout << " " << i;
+ //         }
+ //         if (i == a)
+ //         {
+ //             break;
+ //         }
+ //         std::cout << " + ";
+ //         
+ //     }
+ //     std::cout << " = " << dd;
+
+ 
+
+      
 } // Конец
 
 
